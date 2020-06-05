@@ -14,13 +14,16 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 3px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: blanchedalmond;
+}
+tr:nth-child(odd) {
+  color: blanchedalmond;
 }
 
 .error {
@@ -36,6 +39,7 @@ tr:nth-child(even) {
 .total {
   font-size: 150%;
   text-decoration: underline;
+  color: blanchedalmond;
 }
 
 .form {
@@ -51,3 +55,10 @@ tr:nth-child(even) {
   margin: 0 auto;
 }
 
+.btn {
+  background-color: blanchedalmond;
+}
+
+#myChart{
+  
+}
