@@ -2,7 +2,7 @@
 Project with PWA
 
 
-<img src= "./public/image/appImage.png" width="300" height="200">
+<img src= "./public/image/appImage.png" width="350" height="200">
 
 
 
