@@ -60,5 +60,7 @@ tr:nth-child(odd) {
 }
 
 #myChart{
-  
+  margin-top:5%;
+  margin-bottom:5%;
+  background-color: blanchedalmond;
 }
