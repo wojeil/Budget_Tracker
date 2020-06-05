@@ -37,9 +37,10 @@ tr:nth-child(odd) {
 }
 
 .wrapper {
-  margin: 0 auto;
+  margin-left: 10%;
   max-width: 825px;
   text-align: center;
+  
 }
 
 .total {
