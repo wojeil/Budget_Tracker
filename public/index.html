@@ -14,34 +14,45 @@
   <title>Budget Tracker</title>
 </head>
 <body>
-  <div class="wrapper">
-    <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
-    </div>
-
-    <div class="form">
-      <input type="text" id="t-name" placeholder="Name of transaction" />
-      <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button class="btn" id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button class="btn" id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
-      <p class="error"></p>
-    </div>
-
-    <div class="transactions">
-      <table>
-        <thead>
-          <th>Transaction</th>
-          <th>Amount</th>
-        </thead>
-        <tbody id="tbody">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2">
+        <h1>Keep Track of your Budget
+          and help yourself plan ahead.
+        </h1>
+      </div>
+      <div class="col-sm-10">
+        <div class="wrapper">
+          <div class="total">
+            <div class="total">Your total is: $<span id="total">0</span></div>
+          </div>
+      
+          <div class="form">
+            <input type="text" id="t-name" placeholder="Name of transaction" />
+            <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
+            <button class="btn" id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
+            <button class="btn" id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+            <p class="error"></p>
+          </div>
+      
+          <div class="transactions">
+            <table>
+              <thead>
+                <th>Transaction</th>
+                <th>Amount</th>
+              </thead>
+              <tbody id="tbody">
+                
+              </tbody>
+            </table>
+          </div>
           
-        </tbody>
-      </table>
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
     </div>
-    
-    <canvas id="myChart"></canvas>
-  </div>
-
+  
+</div>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="db.js"></script>
   <script src="index.js"></script>
