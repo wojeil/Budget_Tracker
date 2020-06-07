@@ -8,7 +8,7 @@ Project with PWA
 
 
 Project Title
-This is a budget tracker application where the user can register all their workouts cardio/lifting.
+This is a budget tracker application where the user can register and manage their cash flow.
 When it comes to expenses it is really important to keep track of your budgets. 
 
 Getting Started
